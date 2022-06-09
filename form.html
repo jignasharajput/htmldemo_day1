@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<center><p><b>Registration form</b></p></center>
+	<hr/>
+<center>
+	<form id="form1" method="post" action="submit.html">
+		<table border="2px" cellpadding="5" cellspacing="0">
+			<tbody>
+				<tr>
+					<td>
+		<label for="user_name">UserName:</label></td>
+		<td>
+		<input type="text" id="user_name" name="user_name" required size="10" maxlength="20" minlength="6" placeholder="enter your UserName">
+	</td>
+</tr>
+		<br>
+		<br>
+	<tr>
+	<td>
+		<label for="pwd">password</label></td>
+		<td>
+		<input type="password" id="pwd" name="pwd" value="*****"></td>
+	</tr>
+		<br><br>
+		<tr>
+	<td>
+
+	<label for="phone">phone no</label></td>
+	<td>
+	<input type="number" name="phone">
+</td>
+</tr>
+<tr>
+	<td>
+		<label for="hobby">hobby</label>
+	</td>
+	<td>
+		<input type="checkbox" name="hobby[]" id="hobby">hobby1
+		<input type="checkbox" name="hobby[]" id="hobby">hobby2
+		<input type="checkbox" name="hobby[]" id="hobby">hobby3
+
+	</td>
+</tr>
+<tr>
+	<td>
+		<label for="city">select city</label>
+	</td>
+	<td>
+		<select name="city">
+			<option>city1</option>
+			<option>city2</option>
+			<option>city3</option>
+
+</select>
+	</td>
+
+	</tr>
+	<tr>
+		<td>
+			color:
+		</td>
+		<td>
+			<input type="color">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Date:
+		</td>
+		<td>
+			<input type="date">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			range:
+		</td>
+		<td>
+			<input type="range">
+		</td>
+	</tr>
+
+
+	<td></td>
+	<td>	<input type="submit" value="ok">
+	</td>
+
+
+</tr>
+
+
+</tbody>
+</table>
+</center>
+</body>
+</html>
